@@ -138,14 +138,11 @@ local Themes = {
 	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(18, 22, 30), Color3.fromRGB(12, 14, 18)),
 	    AcrylicNoise = 0, -- << แก้เป็น 0 ตรงนี้ พื้นหลังจะเรียบกริบ ไม่ซ่าแล้วครับ
 	    TitleBarLine = Color3.fromRGB(40, 45, 55),
-	    
-	    -- ส่วนบ็อกซ์ที่อยากให้เหมือนเป๊ะ (ใช้ความโปร่งแสงช่วย)
-	    Tab = Color3.fromRGB(40, 48, 62), 
-	    Element = Color3.fromRGB(40, 48, 62), 
-	    ElementBorder = Color3.fromRGB(50, 58, 72),
-	    InElementBorder = Color3.fromRGB(60, 68, 85),
-	    ElementTransparency = 0.5, -- ให้ความรู้สึกสว่างและโปร่งแสงกว่าพื้นหลัง
-	    
+		Tab = Color3.fromRGB(180, 60, 80),
+		Element = Color3.fromRGB(150, 40, 60),
+		ElementBorder = Color3.fromRGB(90, 20, 35),
+		InElementBorder = Color3.fromRGB(130, 30, 50),
+		ElementTransparency = 0.86,
 	    -- ส่วนอื่นๆ ปรับให้เข้าโทนน้ำเงินมืด
 	    ToggleSlider = Color3.fromRGB(110, 115, 130),
 	    ToggleToggled = Color3.fromRGB(0, 141, 255),
