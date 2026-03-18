@@ -130,10 +130,10 @@ local Themes = {
 	},
 	Cobalt = {
     Name = "Cobalt",
-    Accent = Color3.fromRGB(0, 141, 255), -- สีฟ้าสว่างตรง Slider/Icon
+    Accent = Color3.fromRGB(77, 136, 255), -- สีฟ้าสว่างตรง Slider/Icon
 
     -- พื้นหลังหลัก (เข้มและทึบ)
-    AcrylicMain = Color3.fromRGB(15, 18, 22),
+    AcrylicMain = Color3.fromRGB(50, 87, 139),
     AcrylicBorder = Color3.fromRGB(35, 38, 42), -- ขอบหน้าต่าง
     AcrylicGradient = ColorSequence.new(Color3.fromRGB(18, 21, 26), Color3.fromRGB(13, 16, 20)),
     AcrylicNoise = 0.95,
