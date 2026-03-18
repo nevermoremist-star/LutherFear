@@ -47,7 +47,7 @@ local Themes = {
 	Names = {
 		"Grape",
 		"Crimson", 
-		"Ocean",
+		"Cobalt",
 		"Emerald",
 		"AMOLED",
 		"Light"
