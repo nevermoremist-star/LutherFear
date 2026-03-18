@@ -130,59 +130,59 @@ local Themes = {
 },
 Ocean = {
 	Name = "Ocean",
-	Accent = Color3.fromRGB(70, 130, 200), -- ฟ้า cobalt highlight
+	Accent = Color3.fromRGB(60, 120, 190), -- ฟ้า highlight แต่ไม่สว่างเกิน
 
-	AcrylicMain = Color3.fromRGB(28, 58, 90), -- พื้น cobalt หลัก
-	AcrylicBorder = Color3.fromRGB(45, 85, 130),
+	AcrylicMain = Color3.fromRGB(18, 45, 75), -- cobalt เข้มมาก
+	AcrylicBorder = Color3.fromRGB(35, 70, 115),
 	AcrylicGradient = ColorSequence.new(
-		Color3.fromRGB(30, 65, 100),
-		Color3.fromRGB(35, 75, 115)
+		Color3.fromRGB(20, 50, 85),
+		Color3.fromRGB(25, 60, 100)
 	),
-	AcrylicNoise = 0.96,
+	AcrylicNoise = 0.97,
 
-	TitleBarLine = Color3.fromRGB(60, 100, 150),
+	TitleBarLine = Color3.fromRGB(45, 85, 135),
 
-	Tab = Color3.fromRGB(35, 70, 110),
+	Tab = Color3.fromRGB(25, 55, 95),
 
-	Element = Color3.fromRGB(30, 65, 100), -- กล่องน้ำเงินชัด
-	ElementBorder = Color3.fromRGB(20, 45, 70),
-	InElementBorder = Color3.fromRGB(55, 95, 145),
-	ElementTransparency = 0.88,
+	Element = Color3.fromRGB(22, 50, 85), -- กล่องเข้มขึ้น
+	ElementBorder = Color3.fromRGB(15, 35, 60),
+	InElementBorder = Color3.fromRGB(45, 85, 135),
+	ElementTransparency = 0.9,
 
-	ToggleSlider = Color3.fromRGB(80, 140, 210),
-	ToggleToggled = Color3.fromRGB(25, 55, 85),
+	ToggleSlider = Color3.fromRGB(70, 130, 200),
+	ToggleToggled = Color3.fromRGB(18, 45, 75),
 
-	SliderRail = Color3.fromRGB(80, 140, 210),
+	SliderRail = Color3.fromRGB(70, 130, 200),
 
-	DropdownFrame = Color3.fromRGB(50, 95, 150),
-	DropdownHolder = Color3.fromRGB(25, 55, 85),
-	DropdownBorder = Color3.fromRGB(35, 70, 110),
-	DropdownOption = Color3.fromRGB(80, 140, 210),
+	DropdownFrame = Color3.fromRGB(40, 80, 130),
+	DropdownHolder = Color3.fromRGB(18, 45, 75),
+	DropdownBorder = Color3.fromRGB(30, 60, 100),
+	DropdownOption = Color3.fromRGB(70, 130, 200),
 
-	Keybind = Color3.fromRGB(80, 140, 210),
+	Keybind = Color3.fromRGB(70, 130, 200),
 
-	Input = Color3.fromRGB(80, 140, 210),
-	InputFocused = Color3.fromRGB(28, 58, 90),
-	InputIndicator = Color3.fromRGB(110, 170, 240),
-	InputIndicatorFocus = Color3.fromRGB(140, 200, 255),
+	Input = Color3.fromRGB(70, 130, 200),
+	InputFocused = Color3.fromRGB(18, 45, 75),
+	InputIndicator = Color3.fromRGB(100, 160, 230),
+	InputIndicatorFocus = Color3.fromRGB(130, 190, 255),
 
-	Dialog = Color3.fromRGB(28, 58, 90),
-	DialogHolder = Color3.fromRGB(25, 50, 80),
-	DialogHolderLine = Color3.fromRGB(20, 45, 70),
+	Dialog = Color3.fromRGB(20, 48, 80),
+	DialogHolder = Color3.fromRGB(18, 42, 70),
+	DialogHolderLine = Color3.fromRGB(15, 35, 60),
 
-	DialogButton = Color3.fromRGB(30, 65, 100),
-	DialogButtonBorder = Color3.fromRGB(55, 95, 145),
+	DialogButton = Color3.fromRGB(22, 50, 85),
+	DialogButtonBorder = Color3.fromRGB(45, 85, 135),
 
-	DialogBorder = Color3.fromRGB(45, 85, 130),
+	DialogBorder = Color3.fromRGB(35, 70, 115),
 
-	DialogInput = Color3.fromRGB(35, 70, 110),
-	DialogInputLine = Color3.fromRGB(80, 140, 210),
+	DialogInput = Color3.fromRGB(25, 55, 95),
+	DialogInputLine = Color3.fromRGB(70, 130, 200),
 
-	Text = Color3.fromRGB(230, 240, 255),
-	SubText = Color3.fromRGB(170, 200, 230),
+	Text = Color3.fromRGB(225, 235, 255),
+	SubText = Color3.fromRGB(150, 180, 210),
 
-	Hover = Color3.fromRGB(50, 95, 150),
-	HoverChange = 0.05
+	Hover = Color3.fromRGB(40, 80, 130),
+	HoverChange = 0.04
 },
 	AMOLED = {
 		Name = "AMOLED",
