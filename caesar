@@ -128,59 +128,59 @@ local Themes = {
 		Hover = Color3.fromRGB(170, 50, 70),
 		HoverChange = 0.05,
 	},
-Cobalt = {
-    Name = "Cobalt",
-    Accent = Color3.fromRGB(0, 141, 255), -- สีฟ้าสว่าง (Accent)
-    
-    -- [Main Background] สีพื้นหลังหลักที่เหมือนในรูปเป๊ะๆ (โปร่งแสงและเรียบเนียน)
-    AcrylicMain = Color3.fromRGB(13, 17, 23), 
-    AcrylicBorder = Color3.fromRGB(40, 45, 55),
-    AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 25, 35), Color3.fromRGB(10, 12, 18)),
-    
-    -- แก้ปัญหา "ซ่าๆ": ตั้งเป็น 0 เพื่อให้พื้นหลังใสเคลียร์เหมือนกระจก
-    AcrylicNoise = 0, 
-    
-    TitleBarLine = Color3.fromRGB(40, 50, 70),
-
-    -- [The Box / Tab] บ็อกซ์ที่วงไว้และปุ่มเมนู (สีน้ำเงินเทาอ่อนๆ และนวล)
-    Tab = Color3.fromRGB(45, 52, 64), -- สีปุ่ม Configurations ทางซ้าย
-    Element = Color3.fromRGB(45, 52, 64), -- สีบ็อกซ์ Theme Configuration ตรงกลาง
-    ElementBorder = Color3.fromRGB(55, 62, 75),
-    InElementBorder = Color3.fromRGB(65, 75, 90),
-    
-    -- ปรับค่านี้ให้ "นวล" เหมือนในรูป (0.4-0.5 คือค่าที่ใกล้เคียงที่สุด)
-    ElementTransparency = 0.45, 
-
-    -- ส่วนประกอบอื่นๆ ปรับตามโทนสีในรูป
-    ToggleSlider = Color3.fromRGB(120, 130, 150),
-    ToggleToggled = Color3.fromRGB(0, 141, 255),
-    SliderRail = Color3.fromRGB(60, 70, 90),
-    DropdownFrame = Color3.fromRGB(35, 42, 55),
-    DropdownHolder = Color3.fromRGB(25, 30, 40),
-    DropdownBorder = Color3.fromRGB(45, 55, 70),
-    DropdownOption = Color3.fromRGB(45, 52, 64),
-
-    Keybind = Color3.fromRGB(45, 52, 64),
-    Input = Color3.fromRGB(40, 48, 62),
-    InputFocused = Color3.fromRGB(20, 25, 35),
-    InputIndicator = Color3.fromRGB(90, 100, 120),
-    InputIndicatorFocus = Color3.fromRGB(0, 141, 255),
-
-    Dialog = Color3.fromRGB(25, 30, 40),
-    DialogHolder = Color3.fromRGB(20, 25, 35),
-    DialogHolderLine = Color3.fromRGB(50, 60, 80),
-    DialogButton = Color3.fromRGB(40, 50, 70),
-    DialogButtonBorder = Color3.fromRGB(55, 65, 85),
-    DialogBorder = Color3.fromRGB(45, 55, 70),
-    DialogInput = Color3.fromRGB(35, 45, 60),
-    DialogInputLine = Color3.fromRGB(0, 141, 255),
-
-    Text = Color3.fromRGB(255, 255, 255), -- สีขาว
-    SubText = Color3.fromRGB(165, 175, 190), -- สีเทาจางๆ ตามรูป
-    
-    Hover = Color3.fromRGB(55, 65, 80),
-    HoverChange = 0.05
-},
+	Cobalt = {
+	    Name = "Cobalt",
+	    Accent = Color3.fromRGB(0, 141, 255),
+	    
+	    -- [จุดที่ต้องแก้] พื้นหลังหลักต้องเป็นน้ำเงินเข้ม (ไม่ใช่ดำ) และต้องปิด Noise (ซ่า)
+	    AcrylicMain = Color3.fromRGB(20, 35, 65), -- สีน้ำเงิน Cobalt ตามที่คุณต้องการ
+	    AcrylicBorder = Color3.fromRGB(45, 60, 90),
+	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 40, 75), Color3.fromRGB(15, 25, 55)),
+	    
+	    -- แก้ปัญหา "ซ่าๆ": ต้องเป็น 0 เท่านั้นเพื่อให้พื้นหลังเนียนเรียบ
+	    AcrylicNoise = 0, 
+	    
+	    TitleBarLine = Color3.fromRGB(45, 65, 110),
+	
+	    -- [ปุ่มและบ็อกซ์] ปรับให้สีอ่อนและนวล (ใช้ค่าที่ดูดจากรูปต้นฉบับ)
+	    Tab = Color3.fromRGB(45, 65, 110), 
+	    Element = Color3.fromRGB(45, 65, 110), 
+	    ElementBorder = Color3.fromRGB(60, 80, 130),
+	    InElementBorder = Color3.fromRGB(70, 95, 150),
+	    
+	    -- ปรับให้บ็อกซ์ดูนวลและโปร่งแสงขึ้น
+	    ElementTransparency = 0.5, 
+	
+	    -- Interactive (Slider/Toggle)
+	    ToggleSlider = Color3.fromRGB(120, 140, 180),
+	    ToggleToggled = Color3.fromRGB(0, 141, 255),
+	    SliderRail = Color3.fromRGB(60, 80, 120),
+	    DropdownFrame = Color3.fromRGB(40, 55, 95),
+	    DropdownHolder = Color3.fromRGB(25, 35, 65),
+	    DropdownBorder = Color3.fromRGB(50, 65, 105),
+	    DropdownOption = Color3.fromRGB(45, 65, 110),
+	
+	    Keybind = Color3.fromRGB(45, 65, 110),
+	    Input = Color3.fromRGB(40, 60, 100),
+	    InputFocused = Color3.fromRGB(20, 30, 55),
+	    InputIndicator = Color3.fromRGB(90, 115, 160),
+	    InputIndicatorFocus = Color3.fromRGB(0, 141, 255),
+	
+	    Dialog = Color3.fromRGB(25, 35, 65),
+	    DialogHolder = Color3.fromRGB(20, 30, 55),
+	    DialogHolderLine = Color3.fromRGB(50, 70, 120),
+	    DialogButton = Color3.fromRGB(40, 60, 105),
+	    DialogButtonBorder = Color3.fromRGB(65, 85, 135),
+	    DialogBorder = Color3.fromRGB(50, 70, 120),
+	    DialogInput = Color3.fromRGB(35, 50, 85),
+	    DialogInputLine = Color3.fromRGB(0, 141, 255),
+	
+	    Text = Color3.fromRGB(255, 255, 255),
+	    SubText = Color3.fromRGB(175, 190, 220),
+	    
+	    Hover = Color3.fromRGB(60, 80, 130),
+	    HoverChange = 0.05
+	},
 	Emerald = {
 		Name = "Emerald",
 		Accent = Color3.fromRGB(46, 204, 113),
