@@ -128,61 +128,62 @@ local Themes = {
 		Hover = Color3.fromRGB(170, 50, 70),
 		HoverChange = 0.05,
 },
-Ocean = {
-	Name = "Ocean",
-	Accent = Color3.fromRGB(60, 120, 190), -- ฟ้า highlight แต่ไม่สว่างเกิน
-
-	AcrylicMain = Color3.fromRGB(18, 45, 75), -- cobalt เข้มมาก
-	AcrylicBorder = Color3.fromRGB(35, 70, 115),
-	AcrylicGradient = ColorSequence.new(
-		Color3.fromRGB(20, 50, 85),
-		Color3.fromRGB(25, 60, 100)
-	),
-	AcrylicNoise = 0.97,
-
-	TitleBarLine = Color3.fromRGB(45, 85, 135),
-
-	Tab = Color3.fromRGB(25, 55, 95),
-
-	Element = Color3.fromRGB(22, 50, 85), -- กล่องเข้มขึ้น
-	ElementBorder = Color3.fromRGB(15, 35, 60),
-	InElementBorder = Color3.fromRGB(45, 85, 135),
-	ElementTransparency = 0.9,
-
-	ToggleSlider = Color3.fromRGB(70, 130, 200),
-	ToggleToggled = Color3.fromRGB(18, 45, 75),
-
-	SliderRail = Color3.fromRGB(70, 130, 200),
-
-	DropdownFrame = Color3.fromRGB(40, 80, 130),
-	DropdownHolder = Color3.fromRGB(18, 45, 75),
-	DropdownBorder = Color3.fromRGB(30, 60, 100),
-	DropdownOption = Color3.fromRGB(70, 130, 200),
-
-	Keybind = Color3.fromRGB(70, 130, 200),
-
-	Input = Color3.fromRGB(70, 130, 200),
-	InputFocused = Color3.fromRGB(18, 45, 75),
-	InputIndicator = Color3.fromRGB(100, 160, 230),
-	InputIndicatorFocus = Color3.fromRGB(130, 190, 255),
-
-	Dialog = Color3.fromRGB(20, 48, 80),
-	DialogHolder = Color3.fromRGB(18, 42, 70),
-	DialogHolderLine = Color3.fromRGB(15, 35, 60),
-
-	DialogButton = Color3.fromRGB(22, 50, 85),
-	DialogButtonBorder = Color3.fromRGB(45, 85, 135),
-
-	DialogBorder = Color3.fromRGB(35, 70, 115),
-
-	DialogInput = Color3.fromRGB(25, 55, 95),
-	DialogInputLine = Color3.fromRGB(70, 130, 200),
-
-	Text = Color3.fromRGB(225, 235, 255),
-	SubText = Color3.fromRGB(150, 180, 210),
-
-	Hover = Color3.fromRGB(40, 80, 130),
-	HoverChange = 0.04
+	Cobalt = {
+		Name = "Cobalt",
+	
+		Accent = Color3.fromRGB(88, 130, 180), -- สี slider / highlight
+	
+		AcrylicMain = Color3.fromRGB(15, 28, 45), -- พื้นหลังหลัก
+		AcrylicBorder = Color3.fromRGB(35, 55, 80),
+		AcrylicGradient = ColorSequence.new(
+			Color3.fromRGB(18, 32, 52),
+			Color3.fromRGB(22, 40, 65)
+		),
+		AcrylicNoise = 0.97,
+	
+		TitleBarLine = Color3.fromRGB(45, 65, 95),
+	
+		Tab = Color3.fromRGB(22, 35, 55), -- sidebar
+	
+		Element = Color3.fromRGB(32, 42, 58), -- กล่อง setting (อ่อนกว่าพื้น)
+		ElementBorder = Color3.fromRGB(20, 28, 40),
+		InElementBorder = Color3.fromRGB(55, 75, 105),
+		ElementTransparency = 0.88,
+	
+		ToggleSlider = Color3.fromRGB(95, 140, 200),
+		ToggleToggled = Color3.fromRGB(20, 35, 55),
+	
+		SliderRail = Color3.fromRGB(70, 95, 130),
+	
+		DropdownFrame = Color3.fromRGB(45, 65, 95),
+		DropdownHolder = Color3.fromRGB(20, 30, 45),
+		DropdownBorder = Color3.fromRGB(30, 45, 65),
+		DropdownOption = Color3.fromRGB(85, 120, 170),
+	
+		Keybind = Color3.fromRGB(85, 120, 170),
+	
+		Input = Color3.fromRGB(85, 120, 170),
+		InputFocused = Color3.fromRGB(15, 28, 45),
+		InputIndicator = Color3.fromRGB(110, 155, 210),
+		InputIndicatorFocus = Color3.fromRGB(140, 185, 240),
+	
+		Dialog = Color3.fromRGB(22, 32, 48),
+		DialogHolder = Color3.fromRGB(18, 26, 40),
+		DialogHolderLine = Color3.fromRGB(15, 22, 35),
+	
+		DialogButton = Color3.fromRGB(30, 40, 58),
+		DialogButtonBorder = Color3.fromRGB(50, 70, 100),
+	
+		DialogBorder = Color3.fromRGB(40, 60, 85),
+	
+		DialogInput = Color3.fromRGB(28, 38, 55),
+		DialogInputLine = Color3.fromRGB(85, 120, 170),
+	
+		Text = Color3.fromRGB(225, 235, 245), -- ขาวหม่น
+		SubText = Color3.fromRGB(150, 165, 185),
+	
+		Hover = Color3.fromRGB(40, 60, 85),
+		HoverChange = 0.035
 },
 	AMOLED = {
 		Name = "AMOLED",
