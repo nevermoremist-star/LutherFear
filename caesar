@@ -128,19 +128,24 @@ local Themes = {
 		Hover = Color3.fromRGB(170, 50, 70),
 		HoverChange = 0.05,
 	},
-	Cobalt = {
+		Cobalt = {
 	    Name = "Cobalt",
 	    Accent = Color3.fromRGB(110, 153, 202),
 	    AcrylicMain = Color3.fromRGB(18, 26, 36),
 	    AcrylicBorder = Color3.fromRGB(35, 45, 55),
 	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 28, 40), Color3.fromRGB(15, 22, 32)),
-	    AcrylicNoise = 0, -- ในรูปดูเหมือนจะไม่มี Noise หรือมีน้อยมาก
+	    
+	    -- แก้ตรงนี้: ปรับเป็น 0 เพื่อลบเม็ดสีแตกๆ ออกให้หมด
+	    AcrylicNoise = 0, 
+	    
+	    -- ปรับความโปร่งใสให้เนียนตาขึ้น
+	    ElementTransparency = 0.95, 
+	    
 	    TitleBarLine = Color3.fromRGB(30, 40, 52),
-	    Tab = Color3.fromRGB(35, 45, 60), -- สีพื้นหลังของ Tab ที่เลือกอยู่ (Configurations)
-	    Element = Color3.fromRGB(25, 33, 45), -- ส่วนของกรอบการตั้งค่า
+	    Tab = Color3.fromRGB(35, 45, 60),
+	    Element = Color3.fromRGB(25, 33, 45),
 	    ElementBorder = Color3.fromRGB(40, 50, 65),
 	    InElementBorder = Color3.fromRGB(30, 38, 52),
-	    ElementTransparency = 0.5, -- มีความโปร่งจางๆ ตามสไตล์ในรูป
 	    ToggleSlider = Color3.fromRGB(110, 153, 202),
 	    ToggleToggled = Color3.fromRGB(25, 40, 60),
 	    SliderRail = Color3.fromRGB(45, 55, 70),
@@ -161,8 +166,8 @@ local Themes = {
 	    DialogBorder = Color3.fromRGB(35, 45, 55),
 	    DialogInput = Color3.fromRGB(25, 33, 45),
 	    DialogInputLine = Color3.fromRGB(110, 153, 202),
-	    Text = Color3.fromRGB(225, 230, 240), -- สีขาวนวลๆ ไม่สว่างจ้าเกินไป
-	    SubText = Color3.fromRGB(140, 150, 165), -- สีเทาฟ้าหม่นสำหรับคำอธิบาย
+	    Text = Color3.fromRGB(225, 230, 240),
+	    SubText = Color3.fromRGB(140, 150, 165),
 	    Hover = Color3.fromRGB(45, 55, 75),
 	    HoverChange = 0.05
 	},
