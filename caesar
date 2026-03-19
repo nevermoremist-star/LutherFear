@@ -135,19 +135,19 @@ local Themes = {
 	    
 	    -- Main Background: สีพื้น Slate-Blue เข้ม เรียบเนียน
 	    AcrylicMain = Color3.fromRGB(20, 26, 35), 
-	    
-	    -- --- [ ปรับเพิ่ม: เส้นขอบหลัก --- ]
-	    -- AcrylicBorder: เพิ่มความสว่างเพื่อให้เส้นขอบรอบนอกดูคมชัดขึ้น เหมือนขอบหน้าต่างในรูป
-	    AcrylicBorder = Color3.fromRGB(50, 65, 80), 
-	    -- ---------------------------------
+	    AcrylicBorder = Color3.fromRGB(50, 65, 80), -- เส้นขอบหน้าต่างหลัก
 	    
 	    -- AcrylicGradient: ใช้สี Solid ชุดเดียวกันเพื่อความเนียน
 	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 26, 35), Color3.fromRGB(20, 26, 35)),
 	    
-	    -- AcrylicNoise: ปิด Noise เป็น 0 เพื่อแก้ภาพแตก
+	    -- AcrylicNoise: ปิด Noise เป็น 0 สนิท เพื่อแก้ภาพแตก
 	    AcrylicNoise = 0, 
 	    
-	    -- --- [ ปรับเพิ่ม: เส้นขอบ Element --- ]
+	    -- --- [ ปรับเพิ่ม: ส่วน Tabs ด้านซ้าย --- ]
+	    -- Tab: ปรับเพิ่มความสว่าง (Highlights) เพื่อให้ Tabs "คลุม" ชัดเจน เหมือนในรูป
+	    -- สีนี้จะสว่างกว่า Element เล็กน้อย ทำให้ Tabs ดูลอยออกมา
+	    Tab = Color3.fromRGB(35, 48, 65), -- [ ปรับเพิ่ม: สี Tabs คลุมชัดเจน ]
+	    
 	    -- Element: พื้นหลังของ Elements (เช่น กรอบ Configurations)
 	    Element = Color3.fromRGB(28, 36, 48), 
 	    
@@ -159,10 +159,7 @@ local Themes = {
 	    -- ---------------------------------------
 	    
 	    -- Elements
-	    TitleBarLine = Color3.fromRGB(35, 45, 60), -- [ ปรับเพิ่มความสว่าง: เส้นแบ่ง Title Bar ]
-	    
-	    -- Tab: พื้นหลังของ Tab ด้านซ้าย (ทำให้ดูแตกต่างเล็กน้อย)
-	    Tab = Color3.fromRGB(25, 33, 45), 
+	    TitleBarLine = Color3.fromRGB(35, 45, 60), -- เส้นแบ่ง Title Bar
 	    
 	    -- ElementTransparency: ความโปร่งใสที่พอดี
 	    ElementTransparency = 0.6, 
@@ -175,7 +172,7 @@ local Themes = {
 	    -- Dropdowns
 	    DropdownFrame = Color3.fromRGB(35, 45, 60),
 	    DropdownHolder = Color3.fromRGB(22, 30, 42),
-	    DropdownBorder = Color3.fromRGB(45, 60, 75), -- [ ปรับเพิ่มความสว่าง: เน้นขอบ Dropdown ]
+	    DropdownBorder = Color3.fromRGB(45, 60, 75), -- เน้นขอบ Dropdown
 	    DropdownOption = Color3.fromRGB(110, 153, 202),
 	    
 	    -- Inputs & Keybinds
@@ -188,9 +185,9 @@ local Themes = {
 	    -- Dialogs
 	    Dialog = Color3.fromRGB(20, 28, 38),
 	    DialogHolder = Color3.fromRGB(18, 25, 35),
-	    DialogHolderLine = Color3.fromRGB(35, 45, 60), -- [ ปรับเพิ่มความสว่าง ]
+	    DialogHolderLine = Color3.fromRGB(35, 45, 60), 
 	    DialogButton = Color3.fromRGB(28, 36, 48),
-	    DialogButtonBorder = Color3.fromRGB(45, 60, 75), -- [ ปรับเพิ่มความสว่าง ]
+	    DialogButtonBorder = Color3.fromRGB(45, 60, 75), 
 	    DialogBorder = Color3.fromRGB(35, 45, 55),
 	    DialogInput = Color3.fromRGB(28, 36, 48),
 	    DialogInputLine = Color3.fromRGB(110, 153, 202),
