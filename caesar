@@ -139,7 +139,7 @@ local Themes = {
     
     -- ป้องกันภาพแตก (Color Banding) โดยใช้สี Solid ชุดเดียวกัน
     AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 26, 35), Color3.fromRGB(20, 26, 35)),
-    
+    AcrylicNoise = 0.94,
     -- UI Elements
     TitleBarLine = Color3.fromRGB(30, 40, 52),
     Tab = Color3.fromRGB(25, 33, 45), 
