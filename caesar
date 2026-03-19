@@ -141,7 +141,7 @@ local Themes = {
 	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 26, 35), Color3.fromRGB(20, 26, 35)),
 	    
 	    -- AcrylicNoise: ปิด Noise เป็น 0 สนิท เพื่อแก้ภาพแตก
-	    AcrylicNoise = 0, 
+	    AcrylicNoise = 0.94, 
 	    
 	    -- --- [ ปรับเพิ่ม: ส่วน Tabs ด้านซ้าย --- ]
 	    -- Tab: ปรับเพิ่มความสว่าง (Highlights) เพื่อให้ Tabs "คลุม" ชัดเจน เหมือนในรูป
