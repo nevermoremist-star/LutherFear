@@ -136,7 +136,7 @@ local Themes = {
     AcrylicMain = Color3.fromRGB(20, 26, 35), 
     AcrylicBorder = Color3.fromRGB(35, 45, 55),
     AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 26, 35), Color3.fromRGB(20, 26, 35)),
-    AcrylicNoise = 0, 
+    AcrylicNoise = 0.94, 
     
     -- UI Elements: ปรับให้เข้มขึ้นกว่าเดิมแต่ไม่เท่า Main และไม่มีการเน้นขอบสว่าง
     TitleBarLine = Color3.fromRGB(30, 40, 52),
